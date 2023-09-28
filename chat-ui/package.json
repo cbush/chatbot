@@ -104,6 +104,7 @@
     "stream-browserify": "^3.0.0"
   },
   "devDependencies": {
+    "@release-it/keep-a-changelog": "^4.0.0",
     "@rollup/plugin-inject": "^5.0.3",
     "@storybook/addon-essentials": "^7.0.20",
     "@storybook/addon-interactions": "^7.0.20",

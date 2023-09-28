@@ -1,5 +1,11 @@
 {
+  "plugins": {
+    "@release-it/keep-a-changelog": {
+      "filename": "CHANGELOG.md"
+    }
+  },
   "git": {
+    "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to} -- .",
     "commitArgs": ["-a"],
     "commitMessage": "Release ingest v${version}",
     "tag": false,

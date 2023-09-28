@@ -25,6 +25,7 @@
   "devDependencies": {
     "@babel/preset-typescript": "^7",
     "@babel/types": "^7.22.5",
+    "@release-it/keep-a-changelog": "^4.0.0",
     "@types/deep-equal": "^1.0.1",
     "@types/encodeurl": "^1.0.0",
     "@types/html-to-text": "^9.0.1",
