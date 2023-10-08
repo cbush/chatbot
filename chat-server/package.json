@@ -9,9 +9,9 @@
     "node": ">=18",
     "npm": ">=8"
   },
-  "main": "src/lib.ts",
+  "main": "./dist/lib.js",
   "scripts": {
-    "build": "rm -rf ./dist/ && tsc",
+    "build": "rm -rf ./dist/ && tsc -b",
     "postbuild": "cp ./src/processors/MongoDbUserQueryPreprocessorResponse.d.ts ./dist/processors/",
     "dev": "nodemon src/index.ts",
     "format": "prettier ./src --write",
