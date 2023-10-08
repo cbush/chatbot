@@ -15,7 +15,7 @@ import {
   makeAddMessageToConversationRoute,
 } from "./addMessageToConversation";
 import { QueryPreprocessorFunc } from "../../processors/QueryPreprocessorFunc";
-import { FindContentFunc } from "./FindContentFunc";
+import { FindContentFunc } from "../../FindContentFunc";
 
 export interface ConversationsRateLimitConfig {
   routerRateLimitConfig?: Partial<RateLimitOptions>;

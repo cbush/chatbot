@@ -18,7 +18,7 @@ import { CORE_ENV_VARS, assertEnvVars } from "chat-core";
 import { makePreprocessMongoDbUserQuery } from "./processors/makePreprocessMongoDbUserQuery";
 import { AzureKeyCredential, OpenAIClient } from "@azure/openai";
 import { OpenAiChatMessage, SystemPrompt } from "./services/ChatLlm";
-import { makeDefaultFindContentFunc } from "./routes/conversations/FindContentFunc";
+import { makeDefaultFindContentFunc } from "./FindContentFunc";
 
 export const {
   MONGODB_CONNECTION_URI,

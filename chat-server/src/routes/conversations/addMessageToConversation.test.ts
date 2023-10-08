@@ -43,7 +43,7 @@ import {
 } from "../../testHelpers";
 import { AppConfig } from "../../app";
 import { AzureKeyCredential, OpenAIClient } from "@azure/openai";
-import { makeDefaultFindContentFunc } from "./FindContentFunc";
+import { makeDefaultFindContentFunc } from "../../FindContentFunc";
 import { embed, embeddedContentStore as store } from "../../config";
 
 const { OPENAI_CHAT_COMPLETION_DEPLOYMENT, OPENAI_ENDPOINT } =
